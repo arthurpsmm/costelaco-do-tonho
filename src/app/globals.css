@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --background: #efe6d8;
+  --background-raised: #e5d9c6;
+  --card: #f7f1e6;
+  --foreground: #211a16;
+  --foreground-soft: #4a3f38;
+  --line: rgba(33, 26, 22, 0.14);
+  --brasa: #a92a1f;
+  --brasa-deep: #7e1f17;
+  --ember: #9c6a1f;
+  --good: #3f6b4a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1b1512;
+    --background-raised: #241c17;
+    --card: #241c17;
+    --foreground: #f1e8db;
+    --foreground-soft: #c9baa8;
+    --line: rgba(241, 232, 219, 0.14);
+    --brasa: #e2604f;
+    --brasa-deep: #c94a3a;
+    --ember: #d9a04f;
+    --good: #7fb98d;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-raised: var(--background-raised);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-foreground-soft: var(--foreground-soft);
+  --color-line: var(--line);
+  --color-brasa: var(--brasa);
+  --color-brasa-deep: var(--brasa-deep);
+  --color-ember: var(--ember);
+  --color-good: var(--good);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-work-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.ember-texture {
+  background-image:
+    radial-gradient(ellipse 60% 50% at 20% 20%, rgba(169, 42, 31, 0.35), transparent 60%),
+    radial-gradient(ellipse 50% 40% at 85% 30%, rgba(156, 106, 31, 0.25), transparent 55%),
+    radial-gradient(ellipse 70% 60% at 50% 100%, rgba(0, 0, 0, 0.6), transparent 60%);
+}
+
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.15;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
