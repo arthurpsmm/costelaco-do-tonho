@@ -4,7 +4,7 @@ export const restaurant = {
   tagline: "Espeto corrido no almoço. Rodízio na brasa à noite.",
   phoneDisplay: "(47) 3368-7699",
   phoneHref: "tel:+554733687699",
-  whatsappNumber: "554733687699", // TODO: confirmar número WhatsApp Business real com o restaurante
+  whatsappNumber: "5547991785297",
   address: {
     street: "Av. Nereu Ramos, 5494",
     neighborhood: "Meia Praia",
