@@ -18,7 +18,7 @@ export const restaurant = {
   instagram: "https://www.instagram.com/costelacodotonho/",
   instagramHandle: "@costelacodotonho",
   googleReviewUrl:
-    "https://www.google.com/maps/place//data=!4m2!3m1!1s0x94d8afca2a87cd43:0x39b34d46cc6bf75d",
+    "https://search.google.com/local/writereview?placeid=ChIJQ82HKsqv2JQRXfdrzEZNszk",
   rating: 4.7,
   reviewCount: 4182,
   priceRange: "R$ 80–100 por pessoa",
