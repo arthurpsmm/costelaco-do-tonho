@@ -41,6 +41,7 @@
   --color-good: var(--good);
   --font-display: var(--font-fraunces);
   --font-sans: var(--font-work-sans);
+  --font-hero: var(--font-bricolage);
 }
 
 html {

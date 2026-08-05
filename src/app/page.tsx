@@ -41,7 +41,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative overflow-hidden bg-[#1b1512] text-[#f1e8db]">
         <Image
-          src="/images/galeria/costela-espeto.png"
+          src="/images/galeria/Banner-hero-novo.png"
           alt=""
           fill
           priority
@@ -53,9 +53,9 @@ export default function Home() {
           <p className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-[#e2604f]">
             Meia Praia · Itapema — SC
           </p>
-          <h1 className="max-w-2xl font-display text-4xl leading-[1.05] sm:text-6xl">
+          <h1 className="max-w-2xl font-hero text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl">
             Espeto corrido de dia.{" "}
-            <span className="italic text-[#e2604f]">Rodízio na brasa</span> à
+            <span className="text-[#e2604f]">Rodízio na brasa</span> à
             noite.
           </h1>
           <p className="max-w-lg font-sans text-lg text-[#c9baa8]">
