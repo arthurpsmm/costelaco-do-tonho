@@ -46,9 +46,9 @@ export default function Home() {
           fill
           priority
           sizes="100vw"
-          className="scale-105 object-cover object-center opacity-50 blur-[2px]"
+          className="scale-105 object-cover object-center opacity-80"
         />
-        <div className="ember-texture grain absolute inset-0 bg-gradient-to-t from-[#1b1512] via-[#1b1512]/75 to-[#1b1512]/50" />
+        <div className="ember-texture grain absolute inset-0 bg-gradient-to-t from-[#1b1512] via-[#1b1512]/65 to-[#1b1512]/35" />
         <div className="relative mx-auto flex max-w-6xl flex-col items-start gap-8 px-5 py-24 sm:px-8 sm:py-32">
           <p className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-[#e2604f]">
             Meia Praia · Itapema — SC
