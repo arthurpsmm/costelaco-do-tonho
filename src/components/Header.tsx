@@ -24,7 +24,7 @@ export function Header() {
             alt="Costelaço do Tonho"
             width={150}
             height={150}
-            className="h-16 w-auto sm:h-20"
+            className="h-[6.8rem] w-auto sm:h-[8.5rem]"
             priority
           />
         </Link>
