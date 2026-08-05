@@ -95,8 +95,16 @@ export default function Home() {
                 <p key={p.slice(0, 20)}>{p}</p>
               ))}
             </div>
-            <div className="mt-6">
+            <div className="mt-6 flex flex-wrap items-center gap-3">
               <RatingBadge />
+              <a
+                href={restaurant.googleReviewUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 rounded-full bg-brasa px-4 py-2 font-sans text-sm font-semibold text-white transition-colors hover:bg-brasa-deep"
+              >
+                Avaliar no Google →
+              </a>
             </div>
           </Reveal>
           <Reveal delay={0.1}>

@@ -17,6 +17,8 @@ export const restaurant = {
     "Av. Nereu Ramos, 5494, Meia Praia, Itapema - SC, 88220-000",
   instagram: "https://www.instagram.com/costelacodotonho/",
   instagramHandle: "@costelacodotonho",
+  googleReviewUrl:
+    "https://search.google.com/local/writereview?ftid=0x94d8afca2a87cd43:0x39b34d46cc6bf75d",
   rating: 4.7,
   reviewCount: 4182,
   priceRange: "R$ 80–100 por pessoa",
